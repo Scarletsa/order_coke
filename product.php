@@ -11,7 +11,7 @@ class Product {
   public $ideal_usage; // WHat the store should have sold.
   public $actual_pct_vs_ideal; // How much we were over or underused based on percent.
 
-  function __construct($name, $volume, $number, $cost, $current, $actual, $ideal, $percent) {
+  public function __construct($name, $volume, $number, $cost, $current, $actual, $ideal, $percent) {
     $this->product_name = $name;
     $this->size = $volume;
     $this->quantity = $number;
@@ -22,67 +22,67 @@ class Product {
     $this->actual_pct_vs_ideal = $percent;
   }
 
-  function getProductName() {
+  public function getProductName() {
     return $this->product_name;
   }
 
-  function setProductName($name) {
+  public function setProductName($name) {
     $this->product_name = $name;
   }
 
-  function getSize() {
+  public function getSize() {
     return $this->size;
   }
 
-  function setSize($volume) {
+  public function setSize($volume) {
     $this->size = $volume;
   }
 
-  function getQuantity() {
+  public function getQuantity() {
     return $this->quantity;
   }
 
-  function setQuantity($number) {
+  public function setQuantity($number) {
     $this->quantity = $number;
   }
 
-  function getUnitCost() {
+  public function getUnitCost() {
     return $this->unit_cost;
   }
 
-  function setUnitCost($cost) {
+  public function setUnitCost($cost) {
     $this->unit_cost = $cost;
   }
 
-  function getCurrentInventory() {
+  public function getCurrentInventory() {
     return $this->current_inventory;
   }
 
-  function setCurrentInventory($current) {
+  public function setCurrentInventory($current) {
     $this->current_inventory = $current;
   }
 
-  function getActualUsage() {
+  public function getActualUsage() {
     return $this->actual_usage;
   }
 
-  function setActualUsage($actual) {
+  public function setActualUsage($actual) {
     $this->actual_usage = $actual;
   }
 
-  function getIdealUsage() {
+  public function getIdealUsage() {
     return $this->ideal_usage;
   }
 
-  function setIdealUsage($ideal) {
+  public function setIdealUsage($ideal) {
     $this->ideal_usage = $ideal;
   }
 
-  function getActualVsIdeal() {
+  public function getActualVsIdeal() {
     return $this->actual_pct_vs_ideal;
   }
 
-  function setActualVsIdeal($percent) {
+  public function setActualVsIdeal($percent) {
     $this->actual_pct_vs_ideal = $percent;
   }
 

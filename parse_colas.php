@@ -3,37 +3,40 @@
   <meta charset="utf-8">
 <?php
 
+include 'product.php';
+
+$files = ["data/20170108 - ConsolidatedInventoryUsage.txt",
+"data/20170115 - ConsolidatedInventoryUsage.txt",
+"data/20170122 - ConsolidatedInventoryUsage.txt"];
+
 $parse = 'Colas';
 $big = 'iter';
 $small = 'oz';
 
-$file_handle = fopen("data/20161225 - ConsolidatedInventoryUsage.txt", "r");
+$weeks = [];
+$j = 0;
 
-echo "<table>";
+foreach ($files as $file) {
+$file_handle = fopen($file, "r");
+
+$products = [];
+$i = 0;
 
 while (!feof($file_handle)) {
    $line = fgets($file_handle);
 
    if (strpos($line, $parse) == True) {
+
      $arr = explode("\t", $line);
-     echo "<tr>";
-     foreach ($arr as $ele) {
-       echo "<td>$ele </td>";
-     }
 
      if (strpos($arr[0], $big) == True) {
        $size = '2-Liter';
        $quantity = 8;
-       echo "<td>$quantity: $size </td>";
      } elseif (strpos($arr[0], $small) == True) {
        $size = '20oz';
        $quantity = 24;
-       echo "<td>$quantity: $size </td>";
      }
-     
-     include 'product.php';
 
-     $temp_product = new Product($arr[0], $size, $quantity, $arr[3], $arr[7], $arr[8], $arr[9], $arr[13]);
      /*
      $product_name = $arr[0];
      $unit_cost = $arr[3];
@@ -43,13 +46,39 @@ while (!feof($file_handle)) {
      $actual_vs_ideal_usage = $arr[13];
      */
 
-     echo "</tr>";
+     $products[$i] = new Product($arr[0], $size, $quantity, $arr[3], $arr[7], $arr[8], $arr[9], $arr[13]);
+
+     $i++;
    }
+ }
+
+ $weeks[$j] = $products;
+ $j++;
+
+ fclose($file_handle);
 }
 
-echo "</table>";
+foreach ($weeks as $products) {
+  echo "<table style='text-align:center;'>";
+  echo "<tr><td>Product Name</td><td>Size</td><td>Quantity per case</td><td>Unit Cost</td><td>Current Inventory</td><td>Actual Usage</td><td>Ideal Usage</td><td>Actual Percent Vs Ideal</td></tr>";
 
-fclose($file_handle);
+  foreach ($products as $product) {
+    $name = $product->getProductName();
+    $size = $product->getSize();
+    $number = $product->getQuantity();
+    $cost = $product->getUnitCost();
+    $current = $product->getCurrentInventory();
+    $actual = $product->getActualUsage();
+    $ideal = $product->getIdealUsage();
+    $percent = $product->getActualVsIdeal();
+    echo "<tr>";
+    echo "<td>$name</td><td>$size</td><td>$number</td><td>$cost</td><td>$current</td><td>$actual</td><td>$ideal</td><td>$percent</td>";
+    echo "</tr>";
+  }
+  
+  echo "</table><br>";
+}
+
 
 /*
 $lines  = file('data/20161225 - ConsolidatedInventoryUsage.txt');
