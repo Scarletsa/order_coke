@@ -11,9 +11,16 @@ class Product {
   public $ideal_usage; // WHat the store should have sold.
   public $actual_pct_vs_ideal; // How much we were over or underused based on percent.
 
-  function __construct($name, $size, $quantity, $cost, $current, $actual, $ideal, $actual_pct_vs_ideal) {
-  $this.setProductName($name);
-}
+  function __construct($name, $volume, $number, $cost, $current, $actual, $ideal, $percent) {
+    $this->product_name = $name;
+    $this->size = $volume;
+    $this->quantity = $number;
+    $this->unit_cost = $cost;
+    $this->current_inventory = $current;
+    $this->actual_usage = $actual;
+    $this->ideal_usage = $ideal;
+    $this->actual_pct_vs_ideal = $percent;
+  }
 
   function getProductName() {
     return $this->product_name;

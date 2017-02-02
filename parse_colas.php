@@ -30,13 +30,18 @@ while (!feof($file_handle)) {
        $quantity = 24;
        echo "<td>$quantity: $size </td>";
      }
+     
+     include 'product.php';
 
+     $temp_product = new Product($arr[0], $size, $quantity, $arr[3], $arr[7], $arr[8], $arr[9], $arr[13]);
+     /*
      $product_name = $arr[0];
      $unit_cost = $arr[3];
      $current_inventory = $arr[7];
      $actual_usage = $arr[8];
      $ideal_usage = $arr[9];
      $actual_vs_ideal_usage = $arr[13];
+     */
 
      echo "</tr>";
    }
