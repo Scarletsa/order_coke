@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+Parsing is working by searching a text file for 'Colas', then splitting found lines.
+  Got all of the array indices figured for the creation of objects.
+=======
+Forget about databases;
+Start thinking about the creation of objects.
+
+>>>>>>> parent of 2b44584... Objects and flow control.
+
+Need to make constructors, setters and getters for Product, User, Store and Order classes.
+
+<<<<<<< HEAD
+Started thinking about flow control and the creation of objects.
+  - User
+    Created upon coming to the site for the first time.
+    Will be necessary to use the site.
+  - Store
+    Will be created if the user enters a store number that has not entered before.
+    Upon creation the user will need to upload the 3 previous weeks for
+      consolidated inventory usage to set up sales projections.
+    Each store will likely need it's own directory to store the consolidated
+      inventory usage files.
+  - Product
+    All will be created when the text file is parsed.
+=======
+Get Coke's holidays list to configure email.
+Create order equation for projecting sales.
+
+>>>>>>> parent of 2b44584... Objects and flow control.
+
+Refine order equation for projecting sales. (calculations.php)
+
+Get upload working to store data in correct directory.
+
+Get Coke's holidays list to configure email.
