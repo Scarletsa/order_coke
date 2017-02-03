@@ -7,9 +7,28 @@ Got constructor, setters and getters made for Product.
 Need to make constructors, setters and getters for User, Store and Order classes.
 
 Started thinking about flow control and the creation of objects.
+
+Coming to the site for the first time:
+
+signup (creates user and/or store information, storing the form information in a text file and creating directories for each store, and placing their files accordingly.)
+=>
+order page (The form will have been filled out with the information provided from the upload.)
+
+
+Coming back to the site once you've created an account:
+
+login (Checks the login form against the data stored in the text files.)
+=>
+update/upload (Form to prompt the user for inventory, or giving them the option to upload.)
+=>
+order page (The form will have been filled out with the information provided from the form or upload.)
+
+
   - User
     Created upon coming to the site for the first time.
-    Will be necessary to use the site.
+    Use a text file to store the input information from the form in place of a database for now.
+    Will be necessary for logging in and using the site.
+
   - Store
     Will be created if the user enters a store number that has not entered before.
     Upon creation the user will need to upload the 3 previous weeks for
@@ -18,6 +37,7 @@ Started thinking about flow control and the creation of objects.
       inventory usage files.
 
 Refine order equation for projecting sales. (calculations.php)
+  created pseudo code for calculations, just need to go through and implement.
 
 Get upload working to store data in correct directory.
 
