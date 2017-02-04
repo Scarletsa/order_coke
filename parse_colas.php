@@ -75,7 +75,7 @@ foreach ($weeks as $products) {
     echo "<td>$name</td><td>$size</td><td>$number</td><td>$cost</td><td>$current</td><td>$actual</td><td>$ideal</td><td>$percent</td>";
     echo "</tr>";
   }
-  
+
   echo "</table><br>";
 }
 
