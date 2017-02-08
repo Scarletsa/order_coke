@@ -73,6 +73,7 @@ while (!feof($file_handle)) {
 }
 
 foreach ($weeks as $products) {
+  ksort($products);
   echo "<table style='text-align:center;'>";
   echo "<tr><td>Product Name</td><td>Size</td><td>Quantity per case</td><td>Unit Cost</td><td>Current Inventory</td><td>Actual Usage</td><td>Ideal Usage</td><td>Actual Percent Vs Ideal</td></tr>";
 
