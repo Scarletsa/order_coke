@@ -46,7 +46,19 @@ while (!feof($file_handle)) {
      $actual_vs_ideal_usage = $arr[13];
      */
 
-     $products[$i] = new Product($arr[0], $size, $quantity, $arr[3], $arr[7], $arr[8], $arr[9], $arr[13]);
+     $key = explode(" ", $arr[0]);
+
+     $keyString = $size;
+
+     foreach ($key as $word) {
+      if (strpos($word, 'ottle') != True && strpos($word, 'oz') == False && strpos($word, 'iter') != True && is_numeric($word) != True) {
+        $keyString = "$keyString $word";
+      }
+     }
+
+     $keyString = trim($keyString);
+
+     $products[$keyString] = new Product($arr[0], $size, $quantity, $arr[3], $arr[7], $arr[8], $arr[9], $arr[13]);
 
      $i++;
    }
@@ -62,8 +74,8 @@ foreach ($weeks as $products) {
   echo "<table style='text-align:center;'>";
   echo "<tr><td>Product Name</td><td>Size</td><td>Quantity per case</td><td>Unit Cost</td><td>Current Inventory</td><td>Actual Usage</td><td>Ideal Usage</td><td>Actual Percent Vs Ideal</td></tr>";
 
-  foreach ($products as $product) {
-    $name = $product->getProductName();
+  foreach ($products as $key => $product) {
+    $name = $key;
     $size = $product->getSize();
     $number = $product->getQuantity();
     $cost = $product->getUnitCost();
