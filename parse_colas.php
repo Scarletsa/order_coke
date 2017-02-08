@@ -5,9 +5,9 @@
 
 include 'product.php';
 
-$files = ["data/20170108 - ConsolidatedInventoryUsage.txt",
-"data/20170115 - ConsolidatedInventoryUsage.txt",
-"data/20170122 - ConsolidatedInventoryUsage.txt"];
+$files = ["data/20170115 - ConsolidatedInventoryUsage.txt",
+"data/20170122 - ConsolidatedInventoryUsage.txt",
+"data/20170129 - ConsolidatedInventoryUsage.txt"];
 
 $parse = 'Colas';
 $big = 'iter';
@@ -48,13 +48,15 @@ while (!feof($file_handle)) {
 
      $key = explode(" ", $arr[0]);
 
-     $keyString = $size;
+     $keyString = "";
 
      foreach ($key as $word) {
       if (strpos($word, 'ottle') != True && strpos($word, 'oz') == False && strpos($word, 'iter') != True && is_numeric($word) != True) {
         $keyString = "$keyString $word";
       }
      }
+
+     $keyString = "$keyString $size";
 
      $keyString = trim($keyString);
 
