@@ -51,7 +51,7 @@ while (!feof($file_handle)) {
      $keyString = "";
 
      foreach ($key as $word) {
-      if (strpos($word, 'ottle') != True && strpos($word, 'oz') == False && strpos($word, 'iter') != True && is_numeric($word) != True) {
+      if (strpos($word, 'ottle') != True && (($word == 'oz') != True && strpos($word, 'oz') != True) && strpos($word, 'iter') != True && is_numeric($word) != True) {
         $keyString = "$keyString $word";
       }
      }
