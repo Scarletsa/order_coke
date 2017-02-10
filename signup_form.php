@@ -12,7 +12,7 @@
     <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
     <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='signup_form.php'>Sign up</a>
   </section>
-  <form method="post" action="setup.php">
+  <form enctype="multipart/form-data" method="post" action="setup.php">
     <p>First Name: <input type='text' name='first_name'></p>
     <p>Last Name: <input type='text' name='last_name'></p>
     <p>Email Address: <input type='email' name=email></p>
@@ -53,7 +53,7 @@
       <div class="upload_form_cont">
       <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
       <div>
-      <div><input type="file" name="image_file" id="image_file" onchange="fileSelected();" /></div>
+      <div><input type="file" name="inventory_upload" id="inventory_upload" onchange="fileSelected();" /></div>
       </div>
       <div>
       <input type="button" value="Upload" onclick="startUploading()" />

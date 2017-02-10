@@ -2,8 +2,8 @@
 <head>
   <meta charset="utf-8">
 <?php
-
 include 'product.php';
+include 'util.php';
 
 $files = ["data/20170115 - ConsolidatedInventoryUsage.txt",
 "data/20170122 - ConsolidatedInventoryUsage.txt",
@@ -28,11 +28,10 @@ while (!feof($file_handle)) {
    if (strpos($line, $parse) == True) {
 
      $arr = explode("\t", $line);
-
-     if (strpos($arr[0], $big) == True) {
+     if (strpos($arr[0], $big)) {
        $size = '2-Liter';
        $quantity = 8;
-     } elseif (strpos($arr[0], $small) == True) {
+     } else {
        $size = '20oz';
        $quantity = 24;
      }
@@ -66,14 +65,18 @@ while (!feof($file_handle)) {
    }
  }
 
+ ksort($products);
  $weeks[$j] = $products;
  $j++;
 
  fclose($file_handle);
 }
 
+order_estimate($weeks);
+
+/*
 foreach ($weeks as $products) {
-  ksort($products);
+
   echo "<table style='text-align:center;'>";
   echo "<tr><td>Product Name</td><td>Size</td><td>Quantity per case</td><td>Unit Cost</td><td>Current Inventory</td><td>Actual Usage</td><td>Ideal Usage</td><td>Actual Percent Vs Ideal</td></tr>";
 
@@ -93,7 +96,7 @@ foreach ($weeks as $products) {
 
   echo "</table><br>";
 }
-
+*/
 
 /*
 $lines  = file('data/20161225 - ConsolidatedInventoryUsage.txt');
