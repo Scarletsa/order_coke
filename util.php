@@ -6,6 +6,7 @@
   function order_estimate($week) {
       $total = [];
       $quantity = 0;
+      $cases = 0;
 
       foreach ($week[2] as $key => $product) {
 
@@ -53,9 +54,12 @@
           $number = 0;
         } else {
           $number = ceil($number);
+          $cases += $number;
         }
         echo "Order $number $item<br>";
       }
+
+      echo "Total cases: $cases";
 
       // average = (last week((ideal or actual, whichever is greater))*.5 + 2 weeks ago((ideal or actual, whichever is greater))*.35 + 3 weeks ago((ideal or actual, whichever is greater))*.15);
       // bottle estimate = average*(9/7)*1.15 - current; estimate for 7 days; calculating for 9 days; adding 15%. Will be the number of bottles needed to order;
