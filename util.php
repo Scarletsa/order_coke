@@ -11,11 +11,11 @@
       foreach ($week[2] as $key => $product) {
 
           if ($product->getActualUsage() > $product->getIdealUsage()){
-          $quantity = $product->getActualUsage()*.5;
+          $quantity = $product->getActualUsage()*.45;
         } elseif ($product->getActualUsage() < $product->getIdealUsage()){
-          $quantity = $product->getIdealUsage()*.5;
+          $quantity = $product->getIdealUsage()*.45;
         } else {
-          $quantity = $product->getActualUsage()*.5;
+          $quantity = $product->getActualUsage()*.45;
         }
           $total[$key] = $quantity;
         }
@@ -37,15 +37,15 @@
       foreach ($week[0] as $key => $product) {
 
           if ($product->getActualUsage() > $product->getIdealUsage()){
-          $quantity = $product->getActualUsage()*.15;
+          $quantity = $product->getActualUsage()*.2;
         } elseif ($product->getActualUsage() < $product->getIdealUsage()){
-          $quantity = $product->getIdealUsage()*.15;
+          $quantity = $product->getIdealUsage()*.2;
         } else {
-          $quantity = $product->getActualUsage()*.15;
+          $quantity = $product->getActualUsage()*.2;
         }
           $total[$key] += $quantity;
           $count = $product->getQuantity();
-          $total[$key] = (($total[$key]*(9/7)*1.15)-$product->getCurrentInventory())/$count;
+          $total[$key] = (($total[$key]*(10/7)*1.2)-$product->getCurrentInventory())/$count;
         }
 
 
