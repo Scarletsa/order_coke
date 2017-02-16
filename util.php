@@ -8,6 +8,7 @@
       $quantity = 0;
       $cases = 0;
 
+      //echo "Last weeks numbers<br>";
       foreach ($week[2] as $key => $product) {
 
           if ($product->getActualUsage() > $product->getIdealUsage()){
@@ -18,9 +19,14 @@
           $quantity = $product->getActualUsage()*.45;
         }
           $total[$key] = $quantity;
+          $ideal = $product->getIdealUsage();
+          $actual = $product->getActualUsage();
+
+          //echo "$key ideal $ideal Actual $actual <br>";
         }
 
 
+      //echo "<br>Numbers two weeks ago<br>";
       foreach ($week[1] as $key => $product) {
 
           if ($product->getActualUsage() > $product->getIdealUsage()){
@@ -31,9 +37,13 @@
           $quantity = $product->getActualUsage()*.35;
         }
           $total[$key] += $quantity;
+          $ideal = $product->getIdealUsage();
+          $actual = $product->getActualUsage();
+          //echo "$key ideal $ideal Actual $actual <br>";
         }
 
 
+      //echo "<br>Numbers three weeks ago<br>";
       foreach ($week[0] as $key => $product) {
 
           if ($product->getActualUsage() > $product->getIdealUsage()){
@@ -45,10 +55,14 @@
         }
           $total[$key] += $quantity;
           $count = $product->getQuantity();
+          $ideal = $product->getIdealUsage();
+          $actual = $product->getActualUsage();
+          //echo "$key ideal $ideal Actual $actual <br>";
+
           $total[$key] = (($total[$key]*(10/7)*1.2)-$product->getCurrentInventory())/$count;
         }
 
-
+      echo "<br>Order<br>";
       foreach ($total as $item => $number) {
         if ($number < 0) {
           $number = 0;
@@ -56,10 +70,10 @@
           $number = ceil($number);
           $cases += $number;
         }
-        echo "Order $number $item<br>";
+        echo "$number $item<br>";
       }
 
-      echo "Total cases: $cases";
+      echo "<br>Total cases: $cases";
 
       // average = (last week((ideal or actual, whichever is greater))*.5 + 2 weeks ago((ideal or actual, whichever is greater))*.35 + 3 weeks ago((ideal or actual, whichever is greater))*.15);
       // bottle estimate = average*(9/7)*1.15 - current; estimate for 7 days; calculating for 9 days; adding 15%. Will be the number of bottles needed to order;
