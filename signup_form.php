@@ -10,32 +10,26 @@
 <body>
   <section>
     <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
-    <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='signup_form.php'>Sign up</a>
+    <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='login_form.php'>Log In</a>
   </section>
-  <form enctype="multipart/form-data" method="post" action="setup.php">
+  <form enctype="multipart/form-data" method="post" action="signup_process.php">
     <p>First Name: <input type='text' name='first_name'></p>
     <p>Last Name: <input type='text' name='last_name'></p>
     <p>Email Address: <input type='email' name=email></p>
     <p>Username: <input type='text' name='username'></p>
-    <p>Password: <input type='text' name='password'></p>
-    <p>Validate Password: <input type='text' name='password_validation'>
+    <p>Password: <input type='password' name='password'></p>
+    <p>Validate Password: <input type='password' name='password_validation'>
     <p>Store Number: <input type='text' name='store_number'></p>
     <p>What day of the week do you place your delivery?
       <select name="order-day" id="order-day">
         <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
+        <option value onemptied=""="Tuesday">Tuesday</option>
         <option value="Wednesday">Wednesday</option>
         <option value="Thursday">Thursday</option>
         <option value="Friday">Friday</option>
         <option value="Saturday">Saturday</option>
         <option value="Sunday">Sunday</option>
       </select></p>
-
-    <P>Would you like email reminders for: <select name="delivery-day" id="delivery-day">
-      <option value="All">All orders</option>
-      <option value="Holidays">Orders before holidays</option>
-      <option value="Never">None of the orders</option>
-    </select></p>
 
     <p>What day of the week does the product get delivered?
       <select name="delivery-day" id="delivery-day">
@@ -48,6 +42,7 @@
         <option value="Sunday">Sunday</option>
       </select></p>
 
+      <!--
       <div class="container">
       <div class="contr"><h2>Select a file to set up inventory and click Upload</h2></div>
       <div class="upload_form_cont">
@@ -64,7 +59,7 @@
       <div id="filetype"></div>
       <div id="filedim"></div>
       </div>
-      <div id="error">You should select valid image files only!</div>
+      <div id="error">You sho uld select valid image files only!</div>
       <div id="error2">An error occurred while uploading the file</div>
       <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
       <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
@@ -83,9 +78,10 @@
       </form>
       <img id="preview" />
       </div>
-      </div>
+    </div>
+  -->
 
-  <input type="submit" value="Setup"><input type="button" value="Clear">
+  <input type="submit" value="Sign Up!"><input type="button" value="Clear">
 </form>
 </body>
 </html>

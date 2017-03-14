@@ -2,12 +2,12 @@
 <head>
   <meta charset="utf-8">
 <?php
-include 'product.php';
+include 'product.class.php';
 include 'util.php';
 
-$files = ["data/20170122 - ConsolidatedInventoryUsage.txt",
-"data/20170129 - ConsolidatedInventoryUsage.txt",
-"data/20170205 - ConsolidatedInventoryUsage.txt"];
+$files = ["data/20170219 - ConsolidatedInventoryUsage.txt",
+          "data/20170226 - ConsolidatedInventoryUsage.txt",
+          "data/20170305 - ConsolidatedInventoryUsage.txt"];
 
 $parse = 'Colas';
 $big = 'iter';
@@ -73,6 +73,8 @@ while (!feof($file_handle)) {
 }
 
 order_estimate($weeks);
+
+//database($weeks);
 
 /*
 foreach ($weeks as $products) {

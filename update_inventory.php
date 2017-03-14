@@ -9,7 +9,7 @@
 <body>
   <section>
     <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
-    <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='signup_form.php'>Sign up</a>
+    <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='login_form.php'>Log In</a>
   </section>
   <form method="post" action="update.php">
   <table>
