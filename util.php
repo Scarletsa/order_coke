@@ -43,7 +43,7 @@
         $ideal = $product->ideal_usage;
         $actual = $product->actual_usage;
         $current = $product->current_inventory;
-        $total[$key] = (($total[$key]*(11/7)*1.4)-$current+$buffer)/$count;
+        $total[$key] = (($total[$key]*(11/7)*1.3)-$current+$buffer)/$count;
         //$entityManager->persist($product);
         //$entityManager->flush();
       }

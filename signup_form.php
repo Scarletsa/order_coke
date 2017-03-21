@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Order setup</title>
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script language = "javascript" type="text/javascript" src = "setup_form.js.js"></script>
+  <link href="../bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Cookie|Cuprum' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -12,18 +13,25 @@
     <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
     <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='login_form.php'>Log In</a>
   </section>
-  <form enctype="multipart/form-data" method="post" action="signup_process.php">
-    <p>First Name: <input type='text' name='first_name'></p>
-    <p>Last Name: <input type='text' name='last_name'></p>
-    <p>Email Address: <input type='email' name=email></p>
-    <p>Username: <input type='text' name='username'></p>
-    <p>Password: <input type='password' name='password'></p>
-    <p>Validate Password: <input type='password' name='password_validation'>
-    <p>Store Number: <input type='text' name='store_number'></p>
+  <div class="box">
+  <div id="verticalSpace">
+  <form enctype="multipart/form-data" method="post" action="signup_process.php" id="signup">
+    <div class="header">
+        <h3>Sign Up</h3>
+    </div>
+    <div class="sep"></div>
+    <div class="inputs">
+    <input type='text' name='first_name' placeholder="First Name" autofocus>
+    <input type='text' name='last_name' placeholder="Last Name">
+    <input type='email' name=email placeholder="Email">
+    <input type='text' name='username' placeholder="Username">
+    <input type='password' name='password' placeholder="Password">
+    <input type='password' name='password_validation' placeholder="Validate Password">
+    <input type='text' name='store_number' placeholder="Store Number">
     <p>What day of the week do you place your delivery?
       <select name="order-day" id="order-day">
         <option value="Monday">Monday</option>
-        <option value onemptied=""="Tuesday">Tuesday</option>
+        <option value="Tuesday">Tuesday</option>
         <option value="Wednesday">Wednesday</option>
         <option value="Thursday">Thursday</option>
         <option value="Friday">Friday</option>
@@ -82,6 +90,9 @@
   -->
 
   <input type="submit" value="Sign Up!"><input type="button" value="Clear">
+</div>
 </form>
+</div>
+</div>
 </body>
 </html>
