@@ -7,9 +7,9 @@
 
   function order_estimate($week) {
 
-    $paths = array("E:/College/CSCI/CSCI2006/order_coke/databases/orders",
+    /* = array("E:/College/CSCI/CSCI2006/order_coke/databases/orders",
     "E:/College/CSCI/CSCI2006/order_coke/databases/stores",
-    "E:/College/CSCI/CSCI2006/order_coke/databases/users");
+    "E:/College/CSCI/CSCI2006/order_coke/databases/users");*/
 
     $dbh = new PDO("mysql:host=".DBHOST.";port=".DBPORT.";dbname=".DBNAME.";charset=utf8mb4", DBUSER, DBPASS);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

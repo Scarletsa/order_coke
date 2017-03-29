@@ -23,7 +23,7 @@
     <div class="sep"></div>
     <div class="inputs">
     <input type='text' name='username' placeholder="Username" autofocus>
-    <input type='text' name='password' placeholder="Password">
+    <input type='password' name='password' placeholder="Password">
     <br>
     <input type="submit" value="Log In">
     <input type="button" value="Create Account" onclick="location.href='signup_form.php'";>

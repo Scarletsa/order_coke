@@ -1,11 +1,20 @@
 <?php
 include 'dbattributes.php';
-$_POST['username']
-$_POST['password']
+$user = $_POST['username'];
+$password = $_POST['password'];
+
 $table = 'user';
 $dbh = new PDO("mysql:host=".DBHOST.";port=".DBPORT.";dbname=".DBNAME.";charset=utf8mb4", DBUSER, DBPASS);
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$stmt = "select * from $table where username=$_POST['username'] and password=$_POST['password']";
+$stmt = "SELECT * FROM $table WHERE username='$user'";
+$result = $dbh->query($stmt);
+$arr = $result->fetch(PDO::FETCH_ASSOC);
+if ($arr != NULL) {
+  session_start();
+  $_SESSION['user']=$arr['username'];
+  echo $_SESSION['user'];
+} else {
 
+}
 ?>

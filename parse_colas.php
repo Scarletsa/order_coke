@@ -5,9 +5,9 @@
 include 'product.class.php';
 include 'util.php';
 
-$files = ["data/20170226 - ConsolidatedInventoryUsage.txt",
-          "data/20170305 - ConsolidatedInventoryUsage.txt",
-          "data/20170312 - ConsolidatedInventoryUsage.txt"];
+$files = ["data/20170305 - ConsolidatedInventoryUsage.txt",
+          "data/20170312 - ConsolidatedInventoryUsage.txt",
+          "data/20170319 - ConsolidatedInventoryUsage.txt"];
 
 $parse = 'Colas';
 $big = 'iter';
