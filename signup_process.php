@@ -16,5 +16,12 @@ echo "<p>$values</p>";
 
 $stmt = "INSERT INTO $table (username, firstName, lastName, email, password, storeNumber, orderDay, deliveryDay, creationDate) VALUES ($values)";
 
-$conn->exec($stmt);
+$dbh->exec($stmt);
+
+if(!file_exists('userdata/'.$_POST["store_number"])){
+  mkdir('userdata/'.$_POST["store_number"]);
+}
+
+include 'login_header.php';
+include 'login_form.php';
 ?>

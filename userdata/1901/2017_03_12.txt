@@ -1,0 +1,562 @@
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Express Napkins	Non Food	BUNDLE	$2.22	16.00	-16.00	0.00	0.00	0.00	0.01	-0.01	$0.00	$0.02-	0.00%
+
+Mop Head 24oz Cotton	Non Food	EACH	$5.09	3.00	2.00	5.00	5.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Pan Spray	Non Food	CAN	$2.56	0.00	0.00	0.00	0.00	0.00	4.56	-4.56	$0.00	$11.66-	0.00%
+
+Scrub Pad Green 10 pack	Non Food	EACH	$4.12	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Plates Paper 9"	Non Food	1	$0.02	2,396.00	1,200.00	3,596.00	1,200.00	2,396.00	2.00	2,394.00	$44.53	$44.49	119,800.00 % 
+Toilet Tissue 2 Ply	Non Food	ROLL	$0.50	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Cup Plastic Logo 16 oz	Non Food	CUP	$0.17	0.00	500.00	500.00	500.00	0.00	1.00	-1.00	$0.00	$0.17-	0.00%
+
+Gloves Poly Lg	Non Food	GLOVE	$0.01	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Can Liner 40-45 Gallon	Non Food	CASE	$39.64	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Paper Towel Brn 7"x700'	Non Food	ROLL	$6.39	0.00	6.00	6.00	3.00	3.00	0.00	3.00	$19.18	$19.18	0.00%
+
+Pan Wipes	Non Food	BOX	$1.56	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Dish Soap-Super Rave	Non Food	GALLO	$20.69	2.00	0.00	2.00	0.00	2.00	0.00	2.00	$41.38	$41.38	0.00%
+
+Super Sanitizer	Non Food	GALLO	$21.12	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Floor Cleaner Excellent Neutr	Non Food	EACH	$0.24	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Glass Cleaner	Non Food	BOX	$20.43	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Brilliant Stainless Steel Pol	Non Food	BOTTLE	$6.34	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Laundry Brite Liquid Gallon	Non Food	GALLO	$12.05	1.00	0.00	1.00	0.00	1.00	0.00	1.00	$12.05	$12.05	0.00%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	1
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Handsoap Foam Refill	Non Food	BOTTLE	$10.67	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Hand Sanitizer Foam-PURELL	Non Food	BAG	$28.46	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Pizza Savers	Non Food	EACH	$0.02	0.00	0.00	0.00	0.00	0.00	9.00	-9.00	$0.00	$0.17-	0.00%
+
+Bottle Liners	Non Food	EACH	$0.01	2,000.00	0.00	2,000.00	0.00	2,000.00	0.00	2,000.00	$20.36	$20.36	0.00%
+
+Kitchen Equip Cleaner	Non Food	CASE	$30.21	1.00	0.00	1.00	0.00	1.00	0.00	1.00	$30.21	$30.21	0.00%
+
+Name Tag Magnetic Back (bag) 	Non Food	EACH	$12.90	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+Sterno 8 oz w/wick	Non Food	EACH	$36.91	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Gear Hat Baseball Reg	Non Food	EACH	$4.53	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Large polo shirt	Non Food	EACH	$13.05	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+XL polo shirt	Non Food	EACH	$13.18	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Carryout bag	Non Food	BAG	$0.01	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Paper Plates Logo	Non Food	PACKE	$33.66	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Marbled Cookie Brownie	Food	EACH	$2.06	42.00	66.00	108.00	65.00	43.00	43.00	0.00	$88.60	$0.00	100.00%
+
+Classic Garden Salad	Food	EACH	$3.14	11.00	21.00	32.00	16.00	16.00	15.00	1.00	$50.24	$3.14	106.67%
+
+Chicken Caesar Salad	Food	EACH	$3.23	15.00	18.00	33.00	15.00	18.00	15.00	3.00	$58.14	$9.69	120.00%
+
+Chicken Apple Pecan Salad	Food	EACH	$3.45	6.00	16.00	22.00	9.00	13.00	12.00	1.00	$44.85	$3.45	108.33%
+
+Lite Balsamic	Food	PACKE	$0.17	92.00	0.00	92.00	74.00	18.00	18.00	0.00	$3.02	$0.00	100.00%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	2
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Grated Parmesan Cheese	Food	BOTTLE	$0.99	15.00	0.00	15.00	14.00	1.00	2.00	-1.00	$0.99	$0.99-	50.00%
+
+Red Pepper Seasoning Flakes	Food	BOTTLE	$0.89	23.00	0.00	23.00	19.00	4.00	5.00	-1.00	$3.56	$0.89-	80.00%
+
+Dough Buttery Pan	Food	PATTY	$0.72	114.00	147.00	261.00	112.00	149.00	146.00	3.00	$107.49	$2.16	102.05%
+
+Pan Pizza Box	Food	BOX	$0.34	251.00	200.00	451.00	310.00	141.00	146.00	-5.00	$48.08	$1.71-	96.58%
+
+Pepperoni-Low Fat  Low Sodium 	Food	POUND	$2.77	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+Sandwich Liners (treated)	Food	LINER	$0.03	488.00	0.00	488.00	361.00	127.00	128.00	-1.00	$4.35	$0.03-	99.22%
+
+Parmesan Shake On	Food	BAG	$5.44	5.50	0.00	5.50	4.00	1.50	1.29	0.21	$8.16	$1.13	116.13%
+
+Breadstick Bites Bag	Food	CASE	$52.16	0.64	0.00	0.64	0.54	0.10	0.09	0.01	$5.11	$0.63	113.95%
+
+Low Sodium RTU Pizza Sauce	Food	BAG	$3.45	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Cheese - Lite Mozz LOW Sodium 	Food	POUND	$2.12	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+Cheese, USDA	Food	POUND	$0.18	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Turkey Pepperoni	Food	POUND	$4.30	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Dough 14"-16oz WB	Food	PATTY	$0.57	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+14" Smart Slice Box	Food	BOX	$0.33	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Smart Slice Box 16"	Food	BOX	$0.40	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Pizza Sauce-Concentrate	Food	BAG	$4.30	92.50	60.00	152.50	119.00	33.50	56.79	-23.29	$143.94	$100.06-	58.99%
+
+Gluten Free Crust 10"	Food	SHELL	$1.62	21.00	15.00	36.00	18.00	18.00	16.00	2.00	$29.23	$3.25	112.50%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	3
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Cornmeal High Fine Cones CC402 	Food	POUND	$0.35	132.68	0.00	132.68	100.00	32.68	54.41	-21.73	$11.46	$7.62-	60.06%
+Crushed Red Pepper Packets	Food	EACH	$0.01	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+BBQ Sauce Classic Brown PTK 	Food	BAG	$2.85	14.00	10.00	24.00	13.00	11.00	9.43	1.57	$31.31	$4.46	116.61%
+Heavy Weight Carryout Bag	Food	BAG	$0.10	1,752.00	0.00	1,752.00	1,710.00	42.00	42.00	0.00	$4.13	$0.00	100.00%
+
+BBQ Sauce Brown Dip Cups Reduc 	Food	CUP	$0.19	148.00	0.00	148.00	106.00	42.00	33.00	9.00	$7.83	$1.68	127.27%
+Boneless Chicken	Food	POUND	$3.13	57.50	50.00	107.50	35.00	72.50	90.54	-18.04	$227.07	$56.51-	80.07%
+
+Wings-Chicken	Food	POUND	$3.50	105.00	100.00	205.00	82.50	122.50	121.05	1.45	$428.95	$5.09	101.20%
+
+Sweet Mango Habanero Dip Cup R 	Food	CUP	$0.18	109.00	80.00	189.00	126.00	63.00	46.00	17.00	$11.39	$3.07	136.96%
+Sweet Mango Habanero 6/16oz 	Food	BAG	$2.07	11.00	6.00	17.00	13.00	4.00	3.94	0.06	$8.29	$0.13	101.59%
+Garlic Oil Blend 6/48 oz pouch	Food	BAG	$6.80	23.00	15.00	38.00	19.50	18.50	17.32	1.18	$125.71	$8.00	106.80%
+
+Diced Tomatoes (Pouches)	Food	POUCH	$4.22	13.00	6.00	19.00	13.00	6.00	3.73	2.27	$25.29	$9.58	160.95%
+
+Cheese Feta	Food	BAG	$1.74	17.00	30.00	47.00	11.00	36.00	30.84	5.16	$62.71	$8.98	116.72%
+
+Forks Individually Wrapped	Food	FORK	$0.03	2,164.00	0.00	2,164.00	1,990.00	174.00	174.00	0.00	$4.54	$0.00	100.00%
+
+Garlic Dipping Cups 1oz	Food	CUP	$0.15	643.00	240.00	883.00	852.00	31.00	284.00	-253.00	$4.56	$37.23-	10.92%
+
+Green Olives	Food	POUCH	$3.92	23.00	0.00	23.00	21.00	2.00	2.28	-0.28	$7.84	$1.10-	87.71%
+
+Green Peppers	Food	BAG	$3.79	7.00	13.00	20.00	6.50	13.50	12.26	1.24	$51.17	$4.72	110.15%
+
+Ham	Food	POUND	$2.36	25.00	30.00	55.00	25.00	30.00	27.79	2.21	$70.65	$5.19	107.94%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	4
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Sugar Powdered-Shake On	Food	PACKE	$0.47	3.00	6.00	9.00	0.00	9.00	0.60	8.40	$4.19	$3.91	1,505.02%
+
+I- Cheese Dummy Provolone 	Food	POUND	$2.42	0.00	0.00	0.00	0.00	0.00	7.06	-7.06	$0.00	$17.09-	0.00%
+
+Mild Wing Sauce	Food	BAG	$2.18	11.50	0.00	11.50	10.00	1.50	0.97	0.53	$3.26	$1.16	154.84%
+
+Cheese White American	Food	POUND	$1.94	33.50	0.00	33.50	21.00	12.50	10.95	1.55	$24.27	$3.00	114.12%
+
+Philly Steak Topping	Food	POUND	$5.30	10.50	36.00	46.50	17.00	29.50	25.00	4.50	$156.35	$23.85	118.00%
+
+Beef Cooked	Food	POUND	$2.48	17.50	20.00	37.50	20.00	17.50	20.13	-2.63	$43.40	$6.51-	86.96%
+
+Sausage Sliced (bag)	Food	POUND	$3.72	10.00	12.00	22.00	8.00	14.00	12.93	1.07	$52.08	$3.96	108.24%
+
+Blue Cheese Dip Cup Reduced Fi 	Food	CUP	$0.19	130.00	0.00	130.00	47.00	83.00	85.75	-2.75	$15.92	$0.53-	96.79%
+Black (Ripe) Olives	Food	POUCH	$3.78	25.00	0.00	25.00	17.40	7.60	6.04	1.56	$28.75	$5.90	125.83%
+
+Breadstick Shake-On Seasoning 	Food	BAG	$5.85	6.00	1.00	7.00	6.70	0.30	0.98	-0.68	$1.76	$3.96-	30.70%
+Caesar Dressing Packets	Food	PACKE	$0.17	48.00	0.00	48.00	0.00	48.00	19.00	29.00	$8.21	$4.96	252.63%
+
+Hot Wing Sauce	Food	BAG	$1.95	5.00	12.00	17.00	14.50	2.50	4.89	-2.39	$4.86	$4.65-	51.09%
+
+Cheese Cheddar	Food	POUND	$2.26	29.50	35.00	64.50	28.50	36.00	33.13	2.87	$81.22	$6.46	108.65%
+
+Cheese - Pizza	Food	POUND	$1.82	1,226.25	825.00	2,051.25	1,098.00	953.25	1,635.33	-682.08	$1,731.74	$1,239.10-	58.29%
+
+Cinnamon Sugar Shake-On	Food	BOTTLE	$2.77	2.00	2.00	4.00	2.00	2.00	1.95	0.05	$5.54	$0.14	102.56%
+
+Cheese-IQF Provolone	Food	POUND	$2.08	60.00	96.00	156.00	60.00	96.00	93.44	2.56	$199.52	$5.33	102.74%
+
+Ranch Dipping Sauce Cups Reduc 	Food	CUP	$0.15	486.00	360.00	846.00	711.00	135.00	371.00	-236.00	$20.55	$35.93-	36.39%
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	5
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Ranch Packets	Food	PACKE	$0.14	47.00	60.00	107.00	94.00	13.00	13.00	0.00	$1.78	$0.00	100.00%
+
+Deep Dish 6" Pre Zzestied TFF 	Food	SHELL	$0.70	2,855.00	0.00	2,855.00	3,576.00	-721.00	2,802.00	-3,523.00	$503.74-	$2,461.40-	-25.73%
+Boxes 6"	Food	BOX	$0.14	3,402.00	0.00	3,402.00	4,174.00	-772.00	2,802.00	-3,574.00	$109.05-	$504.83-	-27.55%
+
+Boxes 8"	Food	BOX	$0.20	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Foil Roll 12 X 1000 RNLDS	Food	ROLL	$30.40	0.88	0.00	0.88	0.60	0.28	0.28	0.00	$8.49	$0.08-	99.04%
+
+Bacon Cooked	Food	POUND	$5.36	26.67	30.00	56.67	16.30	40.37	40.54	-0.18	$216.40	$0.94-	99.57%
+
+Banana Peppers Sliced	Food	BAG	$4.38	15.00	0.00	15.00	11.00	4.00	2.44	1.56	$17.51	$6.84	164.06%
+
+Parm Asiago Blend	Food	BAG	$3.88	7.50	14.00	21.50	11.20	10.30	12.35	-2.05	$39.96	$7.94-	83.43%
+
+Buttermilk Ranch POUCHES	Food	BAG	$1.83	11.00	0.00	11.00	9.00	2.00	1.43	0.57	$3.67	$1.05	140.15%
+
+9" Side Order (clear)	Food	BOX	$0.14	499.00	400.00	899.00	525.00	374.00	347.00	27.00	$53.58	$3.87	107.78%
+
+Sandwich Salami 8oz.	Food	POUND	$4.82	1.50	3.50	5.00	2.50	2.50	2.44	0.06	$12.05	$0.30	102.56%
+
+Sandwich Bread	Food	ROLL	$0.50	46.00	192.00	238.00	86.00	152.00	128.00	24.00	$76.38	$12.06	118.75%
+
+Grilled Chicken Topping	Food	POUND	$3.43	58.00	80.00	138.00	46.00	92.00	90.51	1.49	$315.45	$5.12	101.65%
+
+Sliced Provolone Rectangle	Food	BAG	$4.17	7.50	6.00	13.50	6.00	7.50	6.98	0.52	$31.29	$2.15	107.38%
+
+13" Side Order EZ-Fold (Yellow 	Food	BOX	$0.17	556.00	400.00	956.00	582.00	374.00	369.00	5.00	$62.74	$0.84	101.36%
+Red Pepper Strips-Roasted	Food	CAN	$1.61	53.00	24.00	77.00	47.00	30.00	20.34	9.66	$48.25	$15.54	147.51%
+
+Fresh Spinach - 5.25 oz	Food	BAG	$1.71	22.00	24.00	46.00	15.00	31.00	39.20	-8.20	$53.01	$14.03-	79.08%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	6
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Garlic Herb Shake-On	Food	BOTTLE	$2.08	2.20	0.00	2.20	3.00	-0.80	0.27	-1.07	$1.66-	$2.23-	-294.60%
+
+Garlic Parm Sauce 6/16oz	Food	BAG	$1.83	27.00	18.00	45.00	18.00	27.00	28.14	-1.14	$49.41	$2.09-	95.95%
+
+Parchment Sheets 10x16	Food	CASE	$30.20	4.20	0.00	4.20	4.11	0.09	0.13	-0.04	$2.75	$1.12-	71.09%
+
+Pasta Penne - 3 lb bag	Food	POUND	$1.09	34.50	42.00	76.50	39.00	37.50	41.63	-4.13	$40.88	$4.50-	90.09%
+
+Hearty Marinara-20/14oz bg	Food	POUCH	$1.37	38.00	20.00	58.00	39.00	19.00	15.75	3.25	$25.97	$4.44	120.63%
+
+Sauce Alfredo 2-3 lb	Food	BAG	$7.65	12.00	18.00	30.00	12.50	17.50	15.72	1.78	$133.88	$13.63	111.34%
+
+Pasta  Box 8"	Food	BOX	$0.26	307.00	200.00	507.00	369.00	138.00	132.00	6.00	$35.48	$1.54	104.55%
+
+7" Round Aluminum Bowl	Food	BOWL	$0.10	414.00	0.00	414.00	343.00	71.00	72.00	-1.00	$7.05	$0.10-	98.61%
+
+Lid - 7" Round Aluminum	Food	LID	$0.05	688.00	0.00	688.00	616.00	72.00	72.00	0.00	$3.54	$0.00	100.00%
+
+Lava Cake Box 2 count	Food	BOX	$0.15	210.00	0.00	210.00	120.00	90.00	92.00	-2.00	$13.22	$0.29-	97.83%
+
+Lava Crunch Cake	Food	EACH	$0.64	118.00	180.00	298.00	113.00	185.00	184.00	1.00	$118.36	$0.64	100.54%
+
+Labels Computer Thermal 2968 	Food	CASE	$42.50	2.41	1.00	3.41	2.25	1.16	1.17	0.00	$49.49	$0.17-	99.65%
+Oil Butter Flvr No Trans Fat	Food	BOTTLE	$11.28	4.00	3.00	7.00	4.50	2.50	1.80	0.70	$28.21	$7.88	138.77%
+
+Thin Crust 10"	Food	SHELL	$0.38	0.00	0.00	0.00	0.00	0.00	13.00	-13.00	$0.00	$4.88-	0.00%
+
+Box 12" E-Flute	Food	BOX	$0.26	1,503.00	700.00	2,203.00	1,260.00	943.00	945.00	-2.00	$247.07	$0.52-	99.79%
+
+Dough 12" M	Food	TRAY	$3.76	93.75	125.00	218.75	92.50	126.25	121.50	4.75	$474.70	$17.86	103.91%
+
+Thin Crust 12"  60 Shells	Food	SHELL	$0.37	75.00	120.00	195.00	78.00	117.00	102.00	15.00	$43.31	$5.55	114.71%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	7
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Boxes 14"	Food	BOX	$0.33	1,111.00	700.00	1,811.00	913.00	898.00	895.00	3.00	$299.21	$1.00	100.34%
+
+Dough 14" L	Food	TRAY	$3.93	117.50	150.00	267.50	116.33	151.17	147.25	3.92	$594.09	$15.39	102.66%
+
+Thin Crust 14"  60 Shells	Food	SHELL	$0.48	99.00	60.00	159.00	90.00	69.00	65.00	4.00	$33.21	$1.93	106.15%
+
+Boxes 16"	Food	BOX	$0.41	92.00	0.00	92.00	82.00	10.00	9.00	1.00	$4.06	$0.41	111.11%
+
+Dough 16" XL	Food	TRAY	$4.17	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Onions	Food	BAG	$3.10	10.75	16.00	26.75	11.00	15.75	16.23	-0.48	$48.83	$1.49-	97.04%
+
+Oregano Shake-On Seasoning	Food	BOTTLE	$2.49	2.30	1.00	3.30	2.50	0.80	0.69	0.11	$1.99	$0.28	116.36%
+
+Liners 9"x9" (treated)	Food	EACH	$0.05	502.00	0.00	502.00	357.00	145.00	146.00	-1.00	$7.92	$0.05-	99.32%
+
+Bag Parbake Prep 19.5 X 22	Food	BAG	$0.19	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Parchment Sheets 12 X 12	Food	CASE	$30.29	3.54	0.00	3.54	2.75	0.79	0.77	0.02	$23.88	$0.61	102.60%
+
+Parmesan Cheese Packet	Food	EACH	$0.06	0.00	0.00	0.00	0.00	0.00	0.00	0.00	$0.00	$0.00	0.00%
+
+Pepperoni	Food	POUND	$2.51	171.75	125.00	296.75	205.25	91.50	142.85	-51.35	$229.67	$128.89-	64.05%
+
+Pineapple Tidbits Pouches	Food	BAG	$4.49	18.00	18.00	36.00	18.50	17.50	13.99	3.51	$78.55	$15.75	125.08%
+
+Mushrooms Fresh Sliced	Food	POUND	$1.85	31.25	50.00	81.25	31.25	50.00	46.37	3.63	$92.30	$6.70	107.83%
+
+Marinara Dipping Sauce 2oz	Food	CUP	$0.17	494.00	0.00	494.00	420.00	74.00	394.00	-320.00	$12.35	$53.39-	18.78%
+
+Box 10" E-Flute	Food	BOX	$0.23	231.00	200.00	431.00	246.00	185.00	188.00	-3.00	$42.83	$0.69-	98.40%
+
+Dough 10" S	Food	TRAY	$3.25	11.00	16.00	27.00	8.80	18.20	19.70	-1.50	$59.15	$4.88-	92.39%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	8
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+Hot Dipping Sauce Cups Reduced 	Food	CUP	$0.15	183.00	120.00	303.00	225.00	78.00	112.00	-34.00	$11.92	$5.20-	69.64%
+Icing Dipping Sauce Cups Reduc 	Food	CUP	$0.21	144.00	120.00	264.00	159.00	105.00	102.00	3.00	$21.78	$0.62	102.94%
+Sausage Italian Cooked	Food	POUND	$1.48	164.00	80.00	244.00	190.00	54.00	91.09	-37.09	$79.65	$54.71-	59.28%
+
+Jalapeno Peppers Sliced	Food	BAG	$4.50	13.00	8.00	21.00	15.00	6.00	5.33	0.67	$27.00	$3.00	112.50%
+
+20oz Water Bottle	Colas	BOTTLE	$0.46	62.00	0.00	62.00	36.00	26.00	13.00	13.00	$11.98	$5.99	200.00%
+
+2-Liter Coke	Colas	BOTTLE	$1.22	84.00	72.00	156.00	104.00	52.00	55.00	-3.00	$63.18	$3.65-	94.55%
+
+2-Liter Diet Coke	Colas	BOTTLE	$1.22	26.00	16.00	42.00	26.00	16.00	15.00	1.00	$19.44	$1.22	106.67%
+
+2-Liter Sprite	Colas	BOTTLE	$1.22	48.00	72.00	120.00	76.00	44.00	47.00	-3.00	$53.46	$3.65-	93.62%
+
+20oz Orange Bottle	Colas	BOTTLE	$0.64	17.00	24.00	41.00	21.00	20.00	15.00	5.00	$12.73	$3.18	133.33%
+
+20oz Coke Zero	Colas	BOTTLE	$0.64	17.00	24.00	41.00	36.00	5.00	4.00	1.00	$3.18	$0.64	125.00%
+
+20oz Coke Bottle	Colas	BOTTLE	$0.64	52.00	72.00	124.00	92.00	32.00	32.00	0.00	$20.37	$0.00	100.00%
+
+20oz Diet Coke Bottle	Colas	BOTTLE	$0.64	34.00	24.00	58.00	39.00	19.00	13.00	6.00	$12.10	$3.82	146.15%
+
+20oz Sprite Bottle	Colas	BOTTLE	$0.64	60.00	24.00	84.00	52.00	32.00	26.00	6.00	$20.37	$3.82	123.08%
+
+2-Liter Root Beer	Colas	BOTTLE	$1.22	27.00	8.00	35.00	17.00	18.00	16.00	2.00	$21.87	$2.43	112.50%
+
+20oz Root Beer Bottle	Colas	BOTTLE	$0.64	29.00	0.00	29.00	14.00	15.00	10.00	5.00	$9.55	$3.18	150.00%
+
+2-Liter Orange	Colas	BOTTLE	$1.22	33.00	8.00	41.00	21.00	20.00	22.00	-2.00	$24.30	$2.43-	90.91%
+
+20oz Cherry Coke Bottle	Colas	BOTTLE	$0.64	41.00	0.00	41.00	25.00	16.00	14.00	2.00	$10.19	$1.27	114.29%
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	9
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+ Inventory Item	Type	Count Unit	Unit Cost	Beginning Inventory 	Delivered Quantity 	Starting Inventory 	Ending Inventory 	Actual Usage 	Ideal Usage 	Actual vs Ideal Usage 	Cost Actual Used 	Cost vs  Ideal 	Actual Pct vs. Ideal 
+
+2-Liter Cherry Coke	Colas	BOTTLE	$1.22	38.00	8.00	46.00	30.00	16.00	16.00	0.00	$19.44	$0.00	100.00%
+
+2-Liter Mello Yello  	Colas	BOTTLE	$1.22	22.00	16.00	38.00	25.00	13.00	12.00	1.00	$15.80	$1.22	108.33%
+
+20 oz Mello Yello Bottle	Colas	BOTTLE	$0.64	34.00	0.00	34.00	18.00	16.00	11.00	5.00	$10.19	$3.18	145.45%
+
+2-Liter Coke Zero	Colas	BOTTLE	$1.22	8.00	16.00	24.00	16.00	8.00	9.00	-1.00	$9.72	$1.22-	88.89%
+
+20 oz bottle Minute Maid Lemonade 	Colas	BOTTLE	$0.64	28.00	0.00	28.00	23.00	5.00	3.00	2.00	$3.18	$1.27	166.67%
+2 liter Minute Maid Lemonade	Colas	BOTTLE	$1.22	5.00	32.00	37.00	30.00	7.00	6.00	1.00	$8.51	$1.22	116.67%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	10
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+
+
+
+
+
+
+
+
+Consolidated Summary	Toppings  Summary
+Topping	% vs. Ideal
+Royalty Sales	$37,694.12
+Banana Peppers	164.06%
+Actual Food Amount	$7,959.79	Tomatoes	160.95%
+Ideal Food Amount	$12,272.96	Roasted Red Peppers	147.51%
+Variance Amount	$4,313.17-	Sandwich Ranch Dressing 	140.15%
+Black Olives	125.83%
+Actual Food %	21.11%	Pineapple	125.08%
+Ideal Food %	32.55%	Marinara Pasta Sauce	120.63%
+Variance %	-11.44%	Philly Steak	118.00%
+Feta Cheese	116.72%
+BBQ Sauce	116.61%
+Delivery Charge Amount	$114.50
+116.36%
+American Cheese	114.12%
+Jalapeno	112.50%
+Alfredo Pasta Sauce	111.34%
+Green Peppers	110.15%
+Cheddar	108.65%
+Sliced Sausage	108.24%
+Ham	107.94%
+Mushroom	107.83%
+Sandwich Provolone Sliced 	107.38%
+Shredded Provolone	102.74%
+Sandwich Salami	102.56%
+Premium Chicken	101.65%
+Mango Habanero Sauce	101.59%
+Bacon	99.57%
+Onion	97.04%
+Blue Cheese	96.79%
+Garlic Parm	95.95%
+Green Olives	87.71%
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	11
+Consolidated Inventory Usage
+Team Member:	Michael  Albrecht	Domino's # 1901	Begin Date:	3/12/2017
+End Date:	3/18/2017
+
+
+
+
+
+
+
+Beef	86.96%
+Shredded Parm/Asiago	83.43%
+Fresh Spinach	79.08%
+Pepperoni	64.05%
+Sausage	59.28%
+Original Sauce	58.99%
+Pizza Cheese	58.29%
+Buffalo Sauce	51.09%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INV01046U	© 2001 - 2016 Domino's Pulse  -  (Version 3.84 )	Sunday, March 19, 2017     6:23 PM	Page	12

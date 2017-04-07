@@ -7,10 +7,12 @@
 </head>
 
 <body>
-  <section>
-    <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
-    <a href="order_form.php">Order Form</a> | <a href="update_inventory.php">Inventory</a> | <a href='signup_form.php'>Sign up</a>
-  </section>
+  <?php
+  if (session_status() == 2){
+    include 'logout_header.php';
+  } else {
+    include 'login_header.php';
+  } ?>
   <table>
     <form>
     <tr><td>2-Liters</td><td>Outlet #: 600329928</td><td>20 ounces</td></tr>

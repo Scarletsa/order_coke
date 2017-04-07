@@ -1,5 +1,5 @@
 <?php
-include 'dbattributes.php';
+include_once 'dbattributes.php';
 $user = $_POST['username'];
 $password = $_POST['password'];
 
@@ -13,8 +13,9 @@ $arr = $result->fetch(PDO::FETCH_ASSOC);
 if ($arr != NULL) {
   session_start();
   $_SESSION['user']=$arr['username'];
-  echo $_SESSION['user'];
+  $_SESSION['storeNumber']=$arr['storeNumber'];
+  include 'landing.php';
 } else {
-
+  echo "Something went wrong...";
 }
 ?>

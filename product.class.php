@@ -1,8 +1,4 @@
 <?php
-//namespace entity;
-
-//use Doctrine\ORM\Mapping as ORM;
-
 // Objects to be used by every user.
 class Product {
   private $product_name; // Coke Classic

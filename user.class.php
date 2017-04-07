@@ -1,8 +1,4 @@
 <?php
-//namespace entity;
-
-//use Doctrine\ORM\Mapping as ORM;
-
 // Created when the signup_form is submitted.
 class User {
   public $username;
