@@ -4,22 +4,37 @@ body {
 td {
   font-size: 20;
   padding: 5px;
-  border: solid;
-  border-radius: 9px;
+  border: none;
   margin: 3px;
   text-align: center;
-}
-table {
-  width: 50%;
-  margin: 20px 25% 0 25%;
+  background: #f5f5f5;
+  font-size: 1.5rem;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+  clear: both;
 }
 input[type=number]{
-    width: 40px;
+    width: 65px;
+    background: #f5f5f5;
+    font-size: 1.5rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
 }
 .box
  {
-    width: 406px;
-    max-width: 406px;
+    width: 412px;
+    max-width: 412px;
     margin: 0 auto;
 }
 #verticalSpace{margin-top: 10%;}
@@ -56,7 +71,7 @@ input[type=number]{
 #signup .sep {
     height: 2px;
     background: #e8e8e8;
-    width: 406px;
+    width: 412px;
     margin: 0px -25px;
 }
 
@@ -169,63 +184,4 @@ input:-moz-placeholder {
         linear, left top, left bottom,
         from(#000000),
         to(#37383a));
-}
-.upload_form_cont {
-color:#000;
-overflow:hidden;
-}
-#upload_form {
-float:left;
-padding:20px;
-width:700px;
-}
-#preview {
-background-color:#fff;
-display:block;
-float:right;
-width:200px;
-}
-#upload_form > div {
-margin-bottom:10px;
-}
-#speed,#remaining {
-float:left;
-width:100px;
-}
-#b_transfered {
-float:right;
-text-align:right;
-}
-.clear_both {
-clear:both;
-}
-
-#image_file {
-width:400px;
-}
-#progress_info {
-font-size:10pt;
-}
-#fileinfo,#error,#error2,#abort,#warnsize {
-color:#aaa;
-display:none;
-font-size:10pt;
-font-style:italic;
-margin-top:10px;
-}
-#progress {
-border:1px solid #ccc;
-display:none;
-float:left;
-height:14px;
-}
-#progress_percent {
-float:right;
-}
-#upload_response {
-margin-top: 10px;
-padding: 20px;
-overflow: hidden;
-display: none;
-border: 1px solid #ccc;
 }

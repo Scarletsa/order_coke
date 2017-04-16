@@ -1,5 +1,6 @@
 <?php
   function order_estimate($week) {
+    include 'dataids-1.php';
     $dbh = new PDO("mysql:host=".DBHOST.";port=".DBPORT.";dbname=".DBNAME.";charset=utf8mb4", DBUSER, DBPASS);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -9,6 +10,7 @@
 
       echo "<table><tr>";
       foreach ($week[2] as $key => $product) {
+        //$key = array_search($key, $dataids);
         echo "<td>$product<td>";
         $usage = compare($product->actual_usage, $product->ideal_usage);
         $quantity = $usage*0.2;
@@ -16,6 +18,7 @@
       }
       echo "<tr></tr>";
       foreach ($week[1] as $key => $product) {
+        //$key = array_search($key, $dataids);
         echo "<td>$product<td>";
         $usage = compare($product->actual_usage, $product->ideal_usage);
         $quantity = $usage*0.35;
@@ -23,6 +26,7 @@
       }
       echo "<tr></tr>";
       foreach ($week[0] as $key => $product) {
+        //$key = array_search($key, $dataids);
         echo "<td>$product<td>";
         $usage = compare($product->actual_usage, $product->ideal_usage);
         $quantity = $usage*0.45;
@@ -50,6 +54,7 @@
             $number = ceil($number);
           }
           //$number = number_format($number, 2, '.', '');
+          $total[$item] = $number;
           $cases += $number;
         }
         echo "<td>$number<br>$item<td>";
@@ -58,6 +63,8 @@
       echo "</tr></table>";
 
       echo "<br>Total cases: $cases";
+
+      return $total;
     }
 
     function compare($actual, $ideal) {

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <p><img src='Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
+  <p><img src='images/Dominos_banner.gif' alt="Domino's Banner" style="height:105px;"></p>
   <div class="box">
   <div id="verticalSpace">
   <form enctype="multipart/form-data" method="post" action="login_process.php" id="signup">

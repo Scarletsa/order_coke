@@ -11,20 +11,20 @@
 <body>
   <?php include 'login_header.php';?>
   <div class="box">
-  <div id="verticalSpace">
+    <div id="verticalSpace">
   <form enctype="multipart/form-data" method="post" action="signup_process.php" id="signup">
     <div class="header">
         <h3>Sign Up</h3>
     </div>
     <div class="sep"></div>
     <div class="inputs">
-    <input type='text' name='first_name' placeholder="First Name" autofocus>
-    <input type='text' name='last_name' placeholder="Last Name">
-    <input type='email' name=email placeholder="Email">
-    <input type='text' name='username' placeholder="Username">
-    <input type='password' name='password' placeholder="Password">
-    <input type='password' name='password_validation' placeholder="Validate Password">
-    <input type='text' name='store_number' placeholder="Store Number">
+    <input type='text' name='first_name' placeholder="First Name" autofocus><br>
+    <input type='text' name='last_name' placeholder="Last Name"><br>
+    <input type='email' name=email placeholder="Email"><br>
+    <input type='text' name='username' placeholder="Username"><br>
+    <input type='password' name='password' placeholder="Password"><br>
+    <input type='password' name='password_validation' placeholder="Validate Password"><br>
+    <input type='text' name='store_number' placeholder="Store Number"><br>
     <p>What day of the week do you place your delivery?
       <select name="order-day" id="order-day">
         <option value="Monday">Monday</option>
