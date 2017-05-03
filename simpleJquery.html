@@ -1,0 +1,26 @@
+<html>
+<head>
+     	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <script>
+            $.post("process.php", function(data, textStatus, jsXHR) {
+                		if (textStatus=="success")
+                		{
+                        		document.getElementById("displayArea").innerHTML = data;
+                		}
+				});
+
+	      </script>
+</head>
+<body>
+<div>
+  <form>
+    Campus: <input type="text" name="campus">
+    Discipline: <input type="text" name="discipline">
+    <input type="submit" value="Submit" id="btn">
+  </form>
+    <p class="msgArea"></p>
+</div>
+<div> <p id="displayArea"></p></div>
+</body>
+</html>

@@ -37,7 +37,5 @@ class Product {
     return $this->product_name . "<br>" . $this->size . "<br>" . $this->quantity ."<br>" . $this->unit_cost . "<br>" . $this->current_inventory .
     "<br>" . $this->actual_usage . "<br>" . $this->ideal_usage . "<br>" . $this->actua_pct_vs_ideal . "<br>";
   }
-
-
 }
 ?>
