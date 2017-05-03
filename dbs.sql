@@ -16,6 +16,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Current Database: `coke`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `coke` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `coke`;
+
+--
 -- Table structure for table `orders`
 --
 
@@ -47,7 +55,7 @@ CREATE TABLE `orders` (
   `c103029` int(11) DEFAULT NULL,
   `c112259` int(11) DEFAULT NULL,
   PRIMARY KEY (`orderNumber`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -56,7 +64,7 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` VALUES (20,1901,'Dominos1901','Thursday 27th of April 2017 05:06:28 PM',2,7,0,3,0,1,1,3,12,2,3,0,1,0,0,1,1,2,2),(21,1901,'Dominos1901','Thursday 27th of April 2017 05:06:53 PM',0,7,0,3,26,1,1,3,26,11,3,9,11,3,0,1,4,2,0);
+INSERT INTO `orders` VALUES (20,1901,'Dominos1901','Thursday 27th of April 2017 05:06:28 PM',2,7,0,3,0,1,1,3,12,2,3,0,1,0,0,1,1,2,2),(22,1901,'Dominos1901','Tuesday 2nd of May 2017 09:48:56 AM',3,2,1,1,1,3,2,1,2,0,3,0,0,0,0,2,0,2,1);
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -99,4 +107,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-04-27 19:47:05
+-- Dump completed on 2017-05-03  6:42:21
