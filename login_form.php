@@ -22,6 +22,7 @@
     <input type='password' name='password' placeholder="Password">
     <?php if ((isset($_SESSION['loginError']) && $_SESSION['loginError']!=NULL)) {
       echo "<p>" . $_SESSION['loginError'] . "</p>";
+      $_SESSION['loginError'] = NULL;
      } ?>
     <br>
     <input type="submit" value="Log In">

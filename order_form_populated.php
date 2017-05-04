@@ -1,4 +1,4 @@
-<form method="post" action="process_order.php" id="signup">
+<form method="post" action="update_order.php" id="signup">
   <div class="header">
       <h3>Order Form</h3>
   </div>
@@ -35,7 +35,6 @@
         <tr><td>N/A</td><td><img src="images/dasani.png" alt="Dasani" height="54" width="54"></td>
       <td><input type="number" name="112259" min="0" <?php echo "value=".$order[112259]?>></td></tr>
   </table>
-  <input type="submit" value="Place order">
-  <a href="update_process.php" style="text-decoration:none"><input type="button" value="Update order"></a>
+  <input type="submit" value="Update order">
   <a href="delete_process.php" style="text-decoration:none"><input type="button" value="Delete order"></a>
   </form>

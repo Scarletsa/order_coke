@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'dbattributes.php';
 $user = $_POST['username'];
 $password = $_POST['password'];
@@ -11,13 +12,11 @@ $stmt = "SELECT * FROM $table WHERE username='$user' AND password='$password'";
 $result = $dbh->query($stmt);
 $arr = $result->fetch(PDO::FETCH_ASSOC);
 if ($arr != NULL) {
-  session_start();
   $_SESSION['user']=$arr['username'];
   $_SESSION['storeNumber']=$arr['storeNumber'];
   header('Location: home.php');
 } else {
-  session_start();
   $_SESSION['loginError']='Login or password was incorrect.';
-  header('Location:'.$_SERVER['HTTP_REFERER']);
+  header('Location: login_form.php');
 }
 ?>

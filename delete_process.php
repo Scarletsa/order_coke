@@ -5,9 +5,8 @@ $dbh = new PDO("mysql:host=".DBHOST.";port=".DBPORT.";dbname=".DBNAME.";charset=
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $table = 'orders';
-echo $_SESSION['orderNumber'];
-$stmt = "DELETE FROM $table WHERE orderNumber='" . $_SESSION['orderNumber'] . "'";
-$dbh->query($stmt);
+$query = $dbh->prepare("DELETE FROM $table WHERE orderNumber = :orderNumber");
+$query->execute(array(":orderNumber" => $_SESSION['orderNumber']));
 $_SESSION['orderNumber'] = NULL;
 header('Location: order_page.php');
 ?>

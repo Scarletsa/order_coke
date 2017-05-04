@@ -3,9 +3,9 @@ session_start();
 include 'dbattributes.php';
 include 'order.class.php';
 
-$order = new Order($_POST["132529"], $_POST["132530"], $_POST["132531"],
-                $_POST["132532"], $_POST["132546"], $_POST["132551"],
-                $_POST["132543"], $_POST["132541"], $_POST['132540'],
+$order = new Order($_POST['132529'], $_POST['132530'], $_POST['132531'],
+                $_POST['132532'], $_POST['132546'], $_POST['132551'],
+                $_POST['132543'], $_POST['132541'], $_POST['132540'],
                 $_POST['102605'], $_POST['102603'], $_POST['121751'],
                 $_POST['102604'], $_POST['102656'], $_POST['114532'],
                 $_POST['114230'], $_POST['102659'], $_POST['103029'],

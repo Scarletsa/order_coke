@@ -5,7 +5,6 @@
 include 'dataids.php';
 include 'product.class.php';
 include 'util.php';
-include 'scan.php';
 
 if (isset($_SESSION['files']) && $_SESSION['files'] != NULL) {
 $files = [];
