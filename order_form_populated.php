@@ -1,10 +1,11 @@
+<?php $_SESSION['orderNumber'] = $_GET['orderNumber'];?>
 <form method="post" action="update_order.php" id="signup">
   <div class="header">
       <h3>Order Form</h3>
   </div>
   <div class="sep"></div>
     <table>
-    <tr><td>2-Liters (Cases of 8)</td><td><?php echo "Order number: ".$_GET['orderNumber']; $_SESSION['orderNumber'] = $_GET['orderNumber'];?></td><td>20oz (Cases of 24)</td></tr>
+    <tr><td>2-Liters (Cases of 8)</td><td><?php echo "Order number: ".$_SESSION['orderNumber'];?></td><td>20oz (Cases of 24)</td></tr>
       <tr><td><input type="number" name="132530" min="0" <?php echo "value=".$order[132530]; ?> ></td>
         <td><img src="images/cocacola.png" alt="Coke" height="54" width="54"></td>
       <td><input type="number" name="102603" min="0" <?php echo "value=".$order[102603];?>></td></tr>
@@ -22,7 +23,7 @@
       <td><input type="number" name="102659" min="0" <?php echo "value=".$order[102659]?>></td></tr>
       <tr><td><input type="number" name="132540" min="0" <?php echo "value=".$order[132540]?>></td>
         <td><img src="images/sprite.png" alt="Sprite" height="54" width="54"></td>
-      <td><input type="number" name="103029" min="0" <?php echo "value=".$order[103029]?>></td></tr>
+      <td><input type="number" name="101891" min="0" <?php echo "value=".$order[101891]?>></td></tr>
       <tr><td><input type="number" name="132543" min="0" <?php echo "value=".$order[132543]?>></td>
         <td><img src="images/fanta.png" alt="Fanta Orange" height="54" width="54"></td>
       <td><input type="number" name="114230" min="0" <?php echo "value=".$order[114230]?>></td></tr>

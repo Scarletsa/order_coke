@@ -4,7 +4,7 @@
   </div>
   <div class="sep"></div>
     <table>
-    <tr><td>2-Liters (Cases of 8)</td><td>Outlet #: 600329928</td><td>20oz (Cases of 24)</td></tr>
+    <tr><td>2-Liters (Cases of 8)</td><td><?php echo "Outlet number: ".$_SESSION['outletNumber'];?></td><td>20oz (Cases of 24)</td></tr>
       <tr><td><input type="number" name="132530" min="0" <?php echo "value=".$_SESSION['estimate'][132530]; ?> ></td>
         <td><img src="images/cocacola.png" alt="Coke" height="54" width="54"></td>
       <td><input type="number" name="102603" min="0" <?php echo "value=".$_SESSION['estimate'][102603];?>></td></tr>
@@ -22,7 +22,7 @@
       <td><input type="number" name="102659" min="0" <?php echo "value=".$_SESSION['estimate'][102659]?>></td></tr>
       <tr><td><input type="number" name="132540" min="0" <?php echo "value=".$_SESSION['estimate'][132540]?>></td>
         <td><img src="images/sprite.png" alt="Sprite" height="54" width="54"></td>
-      <td><input type="number" name="103029" min="0" <?php echo "value=".$_SESSION['estimate'][103029]?>></td></tr>
+      <td><input type="number" name="101891" min="0" <?php echo "value=".$_SESSION['estimate'][101891]?>></td></tr>
       <tr><td><input type="number" name="132543" min="0" <?php echo "value=".$_SESSION['estimate'][132543]?>></td>
         <td><img src="images/fanta.png" alt="Fanta Orange" height="54" width="54"></td>
       <td><input type="number" name="114230" min="0" <?php echo "value=".$_SESSION['estimate'][114230]?>></td></tr>

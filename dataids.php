@@ -17,6 +17,6 @@ $dataids = ['2-Liter' => ['Cherry Coke' => 132529,
                        'Minute Maid Lemonade' => 114532,
                        'Orange' => 114230,
                        'Root Beer' => 102659,
-                       'Sprite' => 103029, // new 101891
+                       'Sprite' => 101891, // old 103029
                        'Water' => 112259]];
 ?>

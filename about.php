@@ -23,6 +23,12 @@ session_start();
         <h3>About</h3>
     </div>
     <div class="sep"></div>
+    <br>
+    <p>This site was created for a web development class as a project that
+      demonstrates CRUD functionality with databases. It was also useful for
+      doing the actual ordering for my store and using it as a test to get
+      the projections dialed in. Please check out the guide page to see how
+      this site should be used!</p>
   </div>
 </div>
 </body>

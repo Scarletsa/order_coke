@@ -17,7 +17,7 @@ class Order {
   public $c114532;
   public $c114230;
   public $c102659;
-  public $c103029;
+  public $c101891;
   public $c112259;
   public $storeNumber;
   public $user;
@@ -42,7 +42,7 @@ class Order {
   $this->c114532 = $mm20oz;
   $this->c114230 = $orange20oz;
   $this->c102659 = $rootBeer20oz;
-  $this->c103029 = $sprite20oz;
+  $this->c101891 = $sprite20oz;
   $this->c112259 = $water20oz;
   $this->storeNumber = $storeNumber;
   $this->user = $user;
@@ -65,14 +65,14 @@ class Order {
     return "Cherry Coke 2-Liter:" . $this->c132529 . "<br>Coke 2-Liter:" . $this->c132530 . "<br>Coke Zero 2-Liter:" . $this->c132531 . "<br>Diet Coke 2-Liter:" . $this->c132532 .
     "<br>Mello Yello 2-Liter:" . $this->c132546 . "<br>Minute Maid Lemonade 2-Liter:" . $this->c132551 . "<br>Orange 2-Liter:" . $this->c132543 . "<br>Root Beer 2-Liter:" . $this->c132541 . "<br>Sprite 2-Liter:" . $this->c132540 .
     "<br>Cherry Coke 20oz:" . $this->c102605 . "<br>Coke 20oz:" . $this->c102603 . "<br>Coke Zero 20oz:" . $this->c121571 . "<br>Diet Coke 20oz:" . $this->c102604 . "<br>Mello Yello 20oz:" . $this->c102656 .
-    "<br>Minute Maid Lemonade 20oz:" . $this->c114532 . "<br>Orange 20oz:" . $this->c114230 . "<br>Root Beer 20oz:" . $this->c102659 . "<br>Sprite 20oz:" . $this->c103029 . "<br>Water 20oz:" . $this->c112259 . "'";
+    "<br>Minute Maid Lemonade 20oz:" . $this->c114532 . "<br>Orange 20oz:" . $this->c114230 . "<br>Root Beer 20oz:" . $this->c102659 . "<br>Sprite 20oz:" . $this->c101891 . "<br>Water 20oz:" . $this->c112259 . "'";
   }
 
   public function dbvalues() {
     return "'" . $this->storeNumber . "','". $this->user . "','". $this->orderDate . "','" . $this->c132529 . "','" . $this->c132530 . "','" . $this->c132531 . "','" . $this->c132532 .
     "','" . $this->c132546 . "','" . $this->c132551 . "','" . $this->c132543 . "','" . $this->c132541 . "','" . $this->c132540 .
     "','" . $this->c102605 . "','" . $this->c102603 . "','" . $this->c121571 . "','" . $this->c102604 . "','" . $this->c102656 .
-    "','" . $this->c114532 . "','" . $this->c114230 . "','" . $this->c102659 . "','" . $this->c103029 . "','" . $this->c112259 . "'";
+    "','" . $this->c114532 . "','" . $this->c114230 . "','" . $this->c102659 . "','" . $this->c101891 . "','" . $this->c112259 . "'";
   }
 
   public $order_date;

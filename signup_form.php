@@ -25,6 +25,7 @@
     <input type='password' name='password' placeholder="Password"><br>
     <input type='password' name='password_validation' placeholder="Validate Password"><br>
     <input type='text' name='store_number' placeholder="Store Number"><br>
+    <input type='text' name='outlet_number' placeholder="Outlet/Account Number"><br>
   <input type="submit" value="Sign Up!">
 </div>
 </form>

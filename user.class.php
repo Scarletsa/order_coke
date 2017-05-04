@@ -7,15 +7,17 @@ class User {
   public $email;
   private $password;
   public $storeNumber;
+  public $outletNumber;
   private $creationDate;
 
-public function __construct($name, $fName, $lName, $email, $password, $number) {
+public function __construct($name, $fName, $lName, $email, $password, $storeNumber, $outletNumber) {
   $this->username = $name;
   $this->firstName = $fName;
   $this->lastName = $lName;
   $this->email = $email;
   $this->password = $password;
-  $this->storeNumber = $number;
+  $this->storeNumber = $storeNumber;
+  $this->$outletNumber = $outletNumber;
   $this->creationDate = date('l jS \of F Y h:i:s A');
 }
 
@@ -33,12 +35,12 @@ public function __set($property, $value) {
 
 public function __toString() {
   return $this->username . "<br>" . $this->firstName ."<br>" . $this->lastName . "<br>" . $this->email .
-  "<br>" . $this->password . "<br>" . $this->storeNumber . "<br>" . $this->creationDate;
+  "<br>" . $this->password . "<br>" . $this->storeNumber . "<br>" . $this->outletNumber . "<br>" . $this->creationDate;
 }
 
 public function dbvalues() {
   return "'" . $this->username . "','" . $this->firstName ."','" . $this->lastName . "','" . $this->email .
-  "','" . $this->password . "','" . $this->storeNumber . "','" . $this->creationDate . "'";
+  "','" . $this->password . "','" . $this->storeNumber . "','" . $this->outletNumber . "','" . $this->creationDate . "'";
 }
 }
 ?>
