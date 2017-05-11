@@ -18,8 +18,8 @@ if (sizeof($files) == 2) {
   }
   $_SESSION['files'][2] = $files[1];
 } else {
-for ($i = 0; $i < 3; $i++) {
-  $_SESSION['files'][$i] = $files[$i];
+  for ($i = 0; $i < 3; $i++) {
+    $_SESSION['files'][$i] = $files[$i];
   }
 }
 ?>

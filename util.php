@@ -26,7 +26,7 @@
         $ideal = $product->ideal_usage;
         $actual = $product->actual_usage;
         $current = $product->current_inventory;
-        $total[$key] = (($total[$key]*(13/7)*1.35)-$current)/$count;
+        $total[$key] = (($total[$key]*(13/7)*1.45)-$current)/$count;
       }
 
       foreach ($total as $item => $number) {
